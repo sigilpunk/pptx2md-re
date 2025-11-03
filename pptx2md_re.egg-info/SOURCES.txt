@@ -1,0 +1,8 @@
+setup.py
+pptx2md_re/__init__.py
+pptx2md_re/main.py
+pptx2md_re.egg-info/PKG-INFO
+pptx2md_re.egg-info/SOURCES.txt
+pptx2md_re.egg-info/dependency_links.txt
+pptx2md_re.egg-info/requires.txt
+pptx2md_re.egg-info/top_level.txt

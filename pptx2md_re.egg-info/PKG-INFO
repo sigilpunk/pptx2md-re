@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: pptx2md-re
+Version: 0.0.1
+Summary: Suite of tools to convert PowerPoint Presentstions (.pptx) to other formats (.json, .md, .pptxt)
+Home-page: https://github.com/sigilpunk/pptx2md
+Author: sigilpunk
+Author-email: jskresl@gmail.com
+License: MIT
+Requires-Python: >=3.8
+Requires-Dist: pathlib
+Requires-Dist: python-pptx
+Requires-Dist: tqdm
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
