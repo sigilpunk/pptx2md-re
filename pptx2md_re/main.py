@@ -5,7 +5,7 @@ from shutil import rmtree
 from tqdm import tqdm
 
 
-PPTX2MD_VERSION = "0.0.1"
+PPTX2MD_VERSION = "0.1a.post1"
 
 
 def generate_pptxt(
@@ -86,7 +86,7 @@ def generate_pptxt(
                     if not obsidian_compat:
                         f.write(f"{img_path}]\n")
                     else:
-                        f.write(f"{obsidian_safe_path}\n")
+                        f.write(f"{obsidian_safe_path}]\n")
 
                 # handle tables
                 if shape.shape_type.name == "TABLE":
